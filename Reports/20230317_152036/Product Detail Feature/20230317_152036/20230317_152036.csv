@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Product Detail Feature,Chrome 111.0.0.0,,,2023-03-17 15:20:49,2023-03-17 15:21:18,28.330s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Product Detail Feature/PDI001 - User want to see a product detail,Chrome 111.0.0.0,,,2023-03-17 15:20:55,2023-03-17 15:21:18,22.455s,PASSED
+Start listener action : beforeTestCase,Chrome 111.0.0.0,,,2023-03-17 15:20:55,2023-03-17 15:20:59,3.808s,PASSED
+"callTestCase(findTestCase(""Step Definition/Login Feature/LGI005 - User want to login using correct credential""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-03-17 15:21:00,2023-03-17 15:21:11,10.772s,PASSED
+"callTestCase(findTestCase(""Home Page/Click Product Image""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-03-17 15:21:11,2023-03-17 15:21:12,1.176s,PASSED
+"callTestCase(findTestCase(""Product Detail/Verify Element""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-03-17 15:21:12,2023-03-17 15:21:17,4.844s,PASSED
+Start listener action : afterTestCase,Chrome 111.0.0.0,,,2023-03-17 15:21:17,2023-03-17 15:21:18,0.831s,PASSED

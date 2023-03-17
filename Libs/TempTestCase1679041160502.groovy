@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\syamm\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Step Definition\\Login Feature\\LGI005 - User want to login using correct credential\\20230317_143216\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\syamm\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Step Definition\\Product Detail Feature\\PDI001 - User want to see a product detail\\20230317_151920\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Step Definition/Login Feature/LGI005 - User want to login using correct credential', new TestCaseBinding('Test Cases/Step Definition/Login Feature/LGI005 - User want to login using correct credential',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Step Definition/Product Detail Feature/PDI001 - User want to see a product detail', new TestCaseBinding('Test Cases/Step Definition/Product Detail Feature/PDI001 - User want to see a product detail',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
