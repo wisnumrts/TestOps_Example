@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Feature,Chrome 110.0.0.0,,,2023-02-15 12:14:25,2023-02-15 12:15:23,58.062s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Login Feature/LGI001 - User want to login without input username and password,Chrome 110.0.0.0,,,2023-02-15 12:14:30,2023-02-15 12:14:41,10.840s,PASSED
+Start listener action : beforeTestCase,Chrome 110.0.0.0,,,2023-02-15 12:14:30,2023-02-15 12:14:33,2.908s,PASSED
+"callTestCase(findTestCase(""Login Page/Verify Element""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:14:34,2023-02-15 12:14:37,3.313s,PASSED
+"callTestCase(findTestCase(""Login Page/Click Login""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:14:37,2023-02-15 12:14:38,1.313s,PASSED
+"callTestCase(findTestCase(""Login Page/Read Error Message""), [""expected"":""Epic sadface: Username is required""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:14:38,2023-02-15 12:14:40,1.698s,PASSED
+Start listener action : afterTestCase,Chrome 110.0.0.0,,,2023-02-15 12:14:40,2023-02-15 12:14:41,0.793s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Login Feature/LGI002 - User want to login only input registered username,Chrome 110.0.0.0,,,2023-02-15 12:14:41,2023-02-15 12:14:53,11.900s,PASSED
+Start listener action : beforeTestCase,Chrome 110.0.0.0,,,2023-02-15 12:14:41,2023-02-15 12:14:43,1.878s,PASSED
+"callTestCase(findTestCase(""Login Page/Verify Element""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:14:44,2023-02-15 12:14:46,2.452s,PASSED
+"callTestCase(findTestCase(""Login Page/Input Username""), [""username"":""standard_user""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:14:46,2023-02-15 12:14:48,2.222s,PASSED
+"callTestCase(findTestCase(""Login Page/Input Password""), [""password"":""""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:14:48,2023-02-15 12:14:51,2.345s,PASSED
+"callTestCase(findTestCase(""Login Page/Click Login""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:14:51,2023-02-15 12:14:51,0.560s,PASSED
+"callTestCase(findTestCase(""Login Page/Read Error Message""), [""expected"":""Epic sadface: Password is required""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:14:51,2023-02-15 12:14:52,0.934s,PASSED
+Start listener action : afterTestCase,Chrome 110.0.0.0,,,2023-02-15 12:14:52,2023-02-15 12:14:53,0.756s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Login Feature/LGI003 - User want to login only input registered password,Chrome 110.0.0.0,,,2023-02-15 12:14:53,2023-02-15 12:15:03,9.854s,PASSED
+Start listener action : beforeTestCase,Chrome 110.0.0.0,,,2023-02-15 12:14:53,2023-02-15 12:14:55,1.886s,PASSED
+"callTestCase(findTestCase(""Login Page/Verify Element""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:14:56,2023-02-15 12:14:58,2.257s,PASSED
+"callTestCase(findTestCase(""Login Page/Input Username""), [""username"":""""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:14:58,2023-02-15 12:14:59,1.328s,PASSED
+"callTestCase(findTestCase(""Login Page/Input Password""), [""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:14:59,2023-02-15 12:15:00,1.370s,PASSED
+"callTestCase(findTestCase(""Login Page/Click Login""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:15:00,2023-02-15 12:15:01,0.566s,PASSED
+"callTestCase(findTestCase(""Login Page/Read Error Message""), [""expected"":""Epic sadface: Username is required""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:15:01,2023-02-15 12:15:02,0.947s,PASSED
+Start listener action : afterTestCase,Chrome 110.0.0.0,,,2023-02-15 12:15:02,2023-02-15 12:15:03,0.756s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Login Feature/LGI004 - User want to login using incorrect credential,Chrome 110.0.0.0,,,2023-02-15 12:15:03,2023-02-15 12:15:13,10.081s,PASSED
+Start listener action : beforeTestCase,Chrome 110.0.0.0,,,2023-02-15 12:15:03,2023-02-15 12:15:05,1.860s,PASSED
+"callTestCase(findTestCase(""Login Page/Verify Element""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:15:05,2023-02-15 12:15:08,2.258s,PASSED
+"callTestCase(findTestCase(""Login Page/Input Username""), [""username"":""xxxxxxxx""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:15:08,2023-02-15 12:15:09,1.491s,PASSED
+"callTestCase(findTestCase(""Login Page/Input Password""), [""password"":""xxxxxxxx""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:15:09,2023-02-15 12:15:10,1.344s,PASSED
+"callTestCase(findTestCase(""Login Page/Click Login""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:15:10,2023-02-15 12:15:11,0.555s,PASSED
+"callTestCase(findTestCase(""Login Page/Read Error Message""), [""expected"":""Epic sadface: Username and password do not match any user in this service""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:15:11,2023-02-15 12:15:12,1.020s,PASSED
+Start listener action : afterTestCase,Chrome 110.0.0.0,,,2023-02-15 12:15:12,2023-02-15 12:15:13,0.773s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Login Feature/LGI005 - User want to login using correct credential,Chrome 110.0.0.0,,,2023-02-15 12:15:13,2023-02-15 12:15:23,10.496s,PASSED
+Start listener action : beforeTestCase,Chrome 110.0.0.0,,,2023-02-15 12:15:13,2023-02-15 12:15:15,1.875s,PASSED
+"callTestCase(findTestCase(""Login Page/Verify Element""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:15:16,2023-02-15 12:15:18,2.154s,PASSED
+"callTestCase(findTestCase(""Login Page/Input Username""), [""username"":""standard_user""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:15:18,2023-02-15 12:15:19,1.315s,PASSED
+"callTestCase(findTestCase(""Login Page/Input Password""), [""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:15:19,2023-02-15 12:15:20,1.268s,PASSED
+"callTestCase(findTestCase(""Login Page/Click Login""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:15:20,2023-02-15 12:15:21,0.644s,PASSED
+"callTestCase(findTestCase(""Home Page/Read Title Page""), [""expected"":""PRODUCTS""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:15:21,2023-02-15 12:15:23,1.619s,PASSED
+Start listener action : afterTestCase,Chrome 110.0.0.0,,,2023-02-15 12:15:23,2023-02-15 12:15:23,0.814s,PASSED

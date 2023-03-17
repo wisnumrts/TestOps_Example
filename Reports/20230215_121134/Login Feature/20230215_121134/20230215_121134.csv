@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Feature,Chrome 110.0.0.0,,,2023-02-15 12:11:46,2023-02-15 12:12:16,29.923s,FAILED
+,,,,,,,
+Test Cases/Step Definition/Login Feature/LGI001 - User want to login without input username and password,Chrome 110.0.0.0,,,2023-02-15 12:11:51,2023-02-15 12:11:59,7.143s,PASSED
+"callTestCase(findTestCase(""Login Page/Verify Element""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:11:52,2023-02-15 12:11:56,3.321s,PASSED
+"callTestCase(findTestCase(""Login Page/Click Login""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:11:56,2023-02-15 12:11:57,1.306s,PASSED
+"callTestCase(findTestCase(""Login Page/Read Error Message""), [""expected"":""Epic sadface: Username is required""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:11:57,2023-02-15 12:11:59,1.657s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Login Feature/LGI002 - User want to login only input registered username,Chrome 110.0.0.0,,,2023-02-15 12:11:59,2023-02-15 12:12:07,8.515s,PASSED
+"callTestCase(findTestCase(""Login Page/Verify Element""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:11:59,2023-02-15 12:12:02,2.189s,PASSED
+"callTestCase(findTestCase(""Login Page/Input Username""), [""username"":""standard_user""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:12:02,2023-02-15 12:12:04,2.011s,PASSED
+"callTestCase(findTestCase(""Login Page/Input Password""), [""password"":""""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:12:04,2023-02-15 12:12:06,2.149s,PASSED
+"callTestCase(findTestCase(""Login Page/Click Login""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:12:06,2023-02-15 12:12:06,0.523s,PASSED
+"callTestCase(findTestCase(""Login Page/Read Error Message""), [""expected"":""Epic sadface: Password is required""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:12:06,2023-02-15 12:12:07,0.891s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Login Feature/LGI003 - User want to login only input registered password,Chrome 110.0.0.0,,,2023-02-15 12:12:07,2023-02-15 12:12:15,8.213s,FAILED
+"callTestCase(findTestCase(""Login Page/Verify Element""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:12:08,2023-02-15 12:12:10,2.043s,PASSED
+"callTestCase(findTestCase(""Login Page/Input Username""), [""username"":""""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:12:10,2023-02-15 12:12:11,1.197s,PASSED
+"callTestCase(findTestCase(""Login Page/Input Password""), [""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:12:11,2023-02-15 12:12:12,1.217s,PASSED
+"callTestCase(findTestCase(""Login Page/Click Login""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:12:12,2023-02-15 12:12:13,0.609s,PASSED
+"callTestCase(findTestCase(""Login Page/Read Error Message""), [""expected"":""Epic sadface: Username is required""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:12:13,2023-02-15 12:12:15,2.412s,FAILED
+,,,,,,,
+Test Cases/Step Definition/Login Feature/LGI004 - User want to login using incorrect credential,Chrome 110.0.0.0,,,2023-02-15 12:12:15,2023-02-15 12:12:16,0.757s,FAILED
+"callTestCase(findTestCase(""Login Page/Verify Element""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:12:16,2023-02-15 12:12:16,0.217s,FAILED
