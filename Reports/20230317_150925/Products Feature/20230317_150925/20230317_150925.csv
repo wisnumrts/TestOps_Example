@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Products Feature,Chrome 111.0.0.0,,,2023-03-17 15:09:39,2023-03-17 15:10:10,30.801s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Products Feature/PLI001 - User want to see products,Chrome 111.0.0.0,,,2023-03-17 15:09:44,2023-03-17 15:10:10,25.409s,PASSED
+Start listener action : beforeTestCase,Chrome 111.0.0.0,,,2023-03-17 15:09:44,2023-03-17 15:09:48,3.379s,PASSED
+"callTestCase(findTestCase(""Step Definition/Login Feature/LGI005 - User want to login using correct credential""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-03-17 15:09:49,2023-03-17 15:09:59,10.364s,PASSED
+"callTestCase(findTestCase(""Home Page/Scroll Down""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-03-17 15:09:59,2023-03-17 15:10:09,10.024s,PASSED
+Start listener action : afterTestCase,Chrome 111.0.0.0,,,2023-03-17 15:10:09,2023-03-17 15:10:10,0.815s,PASSED
