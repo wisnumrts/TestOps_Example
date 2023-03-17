@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Logout Feature" time="28.219" tests="1" failures="0" errors="0">
+   <testsuite name="Logout Feature" tests="1" failures="0" errors="0" time="28.219" skipped="0" timestamp="2023-03-17 14:42:46" hostname="syamm - DESKTOP-DSCHIOM" id="Test Suites/Logout Feature">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\syamm\\Documents\\MyPortfolio\\GITHUB\\TestOps_Example\\Reports\\20230317_144231\\Logout Feature\\20230317_144231"/>
+         <property name="logFiles" value="C:\\Users\\syamm\\Documents\\MyPortfolio\\GITHUB\\TestOps_Example\\Reports\\20230317_144231\\Logout Feature\\20230317_144231\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="syamm - DESKTOP-DSCHIOM"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 111.0.0.0"/>
+         <property name="hostAddress" value="192.168.18.76"/>
+         <property name="sessionId" value="f0373fe36850377cc98d5e22ef86e045"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Step Definition/Logout Feature/LGO001 - User want to logout" time="21.856" classname="Test Cases/Step Definition/Logout Feature/LGO001 - User want to logout" status="PASSED">
+         <system-out><![CDATA[2023-03-17 14:42:52 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Logout Feature/LGO001 - User want to logout: Test Cases/Step Definition/Logout Feature/LGO001 - User want to logout
+
+2023-03-17 14:42:52 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-03-17 14:42:52 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Logout Feature/LGO001 - User want to logout
+
+2023-03-17 14:42:52 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Logout Feature/LGO001 - User want to logout
+
+2023-03-17 14:42:52 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2023-03-17 14:42:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-17 14:42:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-17 14:42:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-17 14:42:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-17 14:42:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-17 14:42:55 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-03-17 14:42:56 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-03-17 14:42:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Step Definition/Login Feature/LGI005 - User want to login using correct credential"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Step Definition/Login Feature/LGI005 - User want to login using correct credential' successfully
+
+2023-03-17 14:42:57 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Login Feature/LGI005 - User want to login using correct credential: Test Cases/Step Definition/Login Feature/LGI005 - User want to login using correct credential
+
+2023-03-17 14:42:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login Page/Verify Element"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login Page/Verify Element' successfully
+
+2023-03-17 14:42:58 - [TEST_CASE][PASSED] - Test Cases/Login Page/Verify Element: Test Cases/Login Page/Verify Element
+
+2023-03-17 14:42:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login Page/btn_login")): Object 'Object Repository/Login Page/btn_login' is visible
+
+2023-03-17 14:42:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/btn_login' is visible
+
+2023-03-17 14:42:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login Page/img_swaglabsLogo")): Object 'Object Repository/Login Page/img_swaglabsLogo' is visible
+
+2023-03-17 14:43:00 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/img_swaglabsLogo' is visible
+
+2023-03-17 14:43:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login Page/txtfield_password")): Object 'Object Repository/Login Page/txtfield_password' is visible
+
+2023-03-17 14:43:00 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/txtfield_password' is visible
+
+2023-03-17 14:43:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login Page/txtfield_username")): Object 'Object Repository/Login Page/txtfield_username' is visible
+
+2023-03-17 14:43:00 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/txtfield_username' is visible
+
+2023-03-17 14:43:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login Page/Verify Element' successfully
+
+2023-03-17 14:43:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login Page/Input Username"), ["username":"standard_user"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login Page/Input Username' successfully
+
+2023-03-17 14:43:01 - [TEST_CASE][PASSED] - Test Cases/Login Page/Input Username: Test Cases/Login Page/Input Username
+
+2023-03-17 14:43:01 - [TEST_STEP][PASSED] - clearText(findTestObject("Login Page/txtfield_username")): Text of object 'Object Repository/Login Page/txtfield_username' is cleared
+
+2023-03-17 14:43:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login Page/txtfield_username' is cleared
+
+2023-03-17 14:43:02 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/txtfield_username"), username): Text 'standard_user' is set on object 'Object Repository/Login Page/txtfield_username'
+
+2023-03-17 14:43:03 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page/txtfield_username'
+
+2023-03-17 14:43:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login Page/Input Username' successfully
+
+2023-03-17 14:43:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login Page/Input Password"), ["password":"secret_sauce"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login Page/Input Password' successfully
+
+2023-03-17 14:43:03 - [TEST_CASE][PASSED] - Test Cases/Login Page/Input Password: Test Cases/Login Page/Input Password
+
+2023-03-17 14:43:04 - [TEST_STEP][PASSED] - clearText(findTestObject("Login Page/txtfield_password")): Text of object 'Object Repository/Login Page/txtfield_password' is cleared
+
+2023-03-17 14:43:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login Page/txtfield_password' is cleared
+
+2023-03-17 14:43:04 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/txtfield_password"), password): Text 'secret_sauce' is set on object 'Object Repository/Login Page/txtfield_password'
+
+2023-03-17 14:43:05 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login Page/txtfield_password'
+
+2023-03-17 14:43:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login Page/Input Password' successfully
+
+2023-03-17 14:43:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login Page/Click Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login Page/Click Login' successfully
+
+2023-03-17 14:43:05 - [TEST_CASE][PASSED] - Test Cases/Login Page/Click Login: Test Cases/Login Page/Click Login
+
+2023-03-17 14:43:06 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/btn_login")): Object: 'Object Repository/Login Page/btn_login' is clicked on
+
+2023-03-17 14:43:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/btn_login' is clicked on
+
+2023-03-17 14:43:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login Page/Click Login' successfully
+
+2023-03-17 14:43:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Home Page/Read Title Page"), ["expected":"Products"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Home Page/Read Title Page' successfully
+
+2023-03-17 14:43:07 - [TEST_CASE][PASSED] - Test Cases/Home Page/Read Title Page: Test Cases/Home Page/Read Title Page
+
+2023-03-17 14:43:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Home Page/titlePage_PRODUCTS")): Object 'Object Repository/Home Page/titlePage_PRODUCTS' is visible
+
+2023-03-17 14:43:08 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/titlePage_PRODUCTS' is visible
+
+2023-03-17 14:43:08 - [TEST_STEP][PASSED] - titlePage = getText(findTestObject("Home Page/titlePage_PRODUCTS")): Text of object 'Object Repository/Home Page/titlePage_PRODUCTS' is: 'Products'
+
+2023-03-17 14:43:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/Home Page/titlePage_PRODUCTS' is: 'Products'
+
+2023-03-17 14:43:09 - [TEST_STEP][PASSED] - logInfo("Title Page: " + titlePage): Title Page: Products
+
+2023-03-17 14:43:09 - [MESSAGE][INFO] - Title Page: Products
+
+2023-03-17 14:43:09 - [TEST_STEP][PASSED] - verifyMatch(titlePage, expected, false): Actual text 'Products' and expected text 'Products' are matched 
+
+2023-03-17 14:43:09 - [MESSAGE][PASSED] - Actual text 'Products' and expected text 'Products' are matched 
+
+2023-03-17 14:43:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Home Page/Read Title Page' successfully
+
+2023-03-17 14:43:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Step Definition/Login Feature/LGI005 - User want to login using correct credential' successfully
+
+2023-03-17 14:43:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Home Page/Click Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Home Page/Click Menu' successfully
+
+2023-03-17 14:43:09 - [TEST_CASE][PASSED] - Test Cases/Home Page/Click Menu: Test Cases/Home Page/Click Menu
+
+2023-03-17 14:43:09 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/btn_menu")): Object: 'Object Repository/Home Page/btn_menu' is clicked on
+
+2023-03-17 14:43:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/btn_menu' is clicked on
+
+2023-03-17 14:43:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Home Page/Click Menu' successfully
+
+2023-03-17 14:43:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Home Page/Click Logout Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Home Page/Click Logout Menu' successfully
+
+2023-03-17 14:43:10 - [TEST_CASE][PASSED] - Test Cases/Home Page/Click Logout Menu: Test Cases/Home Page/Click Logout Menu
+
+2023-03-17 14:43:11 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Menu_Logout")): Object: 'Object Repository/Home Page/Menu_Logout' is clicked on
+
+2023-03-17 14:43:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Menu_Logout' is clicked on
+
+2023-03-17 14:43:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Home Page/Click Logout Menu' successfully
+
+2023-03-17 14:43:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login Page/Verify Element"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login Page/Verify Element' successfully
+
+2023-03-17 14:43:11 - [TEST_CASE][PASSED] - Test Cases/Login Page/Verify Element: Test Cases/Login Page/Verify Element
+
+2023-03-17 14:43:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login Page/btn_login")): Object 'Object Repository/Login Page/btn_login' is visible
+
+2023-03-17 14:43:12 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/btn_login' is visible
+
+2023-03-17 14:43:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login Page/img_swaglabsLogo")): Object 'Object Repository/Login Page/img_swaglabsLogo' is visible
+
+2023-03-17 14:43:12 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/img_swaglabsLogo' is visible
+
+2023-03-17 14:43:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login Page/txtfield_password")): Object 'Object Repository/Login Page/txtfield_password' is visible
+
+2023-03-17 14:43:13 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/txtfield_password' is visible
+
+2023-03-17 14:43:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login Page/txtfield_username")): Object 'Object Repository/Login Page/txtfield_username' is visible
+
+2023-03-17 14:43:13 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/txtfield_username' is visible
+
+2023-03-17 14:43:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login Page/Verify Element' successfully
+
+2023-03-17 14:43:13 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2023-03-17 14:43:13 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Logout Feature/LGO001 - User want to logout
+
+2023-03-17 14:43:13 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Logout Feature/LGO001 - User want to logout
+
+2023-03-17 14:43:13 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2023-03-17 14:43:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-17 14:43:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-17 14:42:46 - [TEST_SUITE][PASSED] - Logout Feature: Test Cases/Step Definition/Logout Feature/LGO001 - User want to logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
