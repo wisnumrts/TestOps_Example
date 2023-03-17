@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Feature" time="16.5" tests="1" failures="0" errors="0">
+   <testsuite name="Login Feature" tests="1" failures="0" errors="0" time="16.5" skipped="0" timestamp="2023-02-15 12:12:58" hostname="syamm - DESKTOP-DSCHIOM" id="Test Suites/Login Feature">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\syamm\\Documents\\Katalon\\SaucelabsAutomationTest\\SauceLabs Web Project\\Reports\\20230215_121246\\Login Feature\\20230215_121246"/>
+         <property name="logFiles" value="C:\\Users\\syamm\\Documents\\Katalon\\SaucelabsAutomationTest\\SauceLabs Web Project\\Reports\\20230215_121246\\Login Feature\\20230215_121246\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="syamm - DESKTOP-DSCHIOM"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 110.0.0.0"/>
+         <property name="hostAddress" value="192.168.18.76"/>
+         <property name="sessionId" value="03f50c25ad085ebddf391a2b05f2aea5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Step Definition/Login Feature/LGI003 - User want to login only input registered password" time="11.617" classname="Test Cases/Step Definition/Login Feature/LGI003 - User want to login only input registered password" status="PASSED">
+         <system-out><![CDATA[2023-02-15 12:13:03 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Login Feature/LGI003 - User want to login only input registered password: Test Cases/Step Definition/Login Feature/LGI003 - User want to login only input registered password
+
+2023-02-15 12:13:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login Page/Verify Element"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login Page/Verify Element' successfully
+
+2023-02-15 12:13:04 - [TEST_CASE][PASSED] - Test Cases/Login Page/Verify Element: Test Cases/Login Page/Verify Element
+
+2023-02-15 12:13:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login Page/btn_login")): Object 'Object Repository/Login Page/btn_login' is visible
+
+2023-02-15 12:13:06 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/btn_login' is visible
+
+2023-02-15 12:13:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login Page/img_robotImage")): Object 'Object Repository/Login Page/img_robotImage' is visible
+
+2023-02-15 12:13:06 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/img_robotImage' is visible
+
+2023-02-15 12:13:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login Page/img_swaglabsLogo")): Object 'Object Repository/Login Page/img_swaglabsLogo' is visible
+
+2023-02-15 12:13:07 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/img_swaglabsLogo' is visible
+
+2023-02-15 12:13:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login Page/txtfield_password")): Object 'Object Repository/Login Page/txtfield_password' is visible
+
+2023-02-15 12:13:07 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/txtfield_password' is visible
+
+2023-02-15 12:13:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login Page/txtfield_username")): Object 'Object Repository/Login Page/txtfield_username' is visible
+
+2023-02-15 12:13:08 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/txtfield_username' is visible
+
+2023-02-15 12:13:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login Page/Verify Element' successfully
+
+2023-02-15 12:13:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login Page/Input Username"), ["username":""], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login Page/Input Username' successfully
+
+2023-02-15 12:13:08 - [TEST_CASE][PASSED] - Test Cases/Login Page/Input Username: Test Cases/Login Page/Input Username
+
+2023-02-15 12:13:08 - [TEST_STEP][PASSED] - clearText(findTestObject("Login Page/txtfield_username")): Text of object 'Object Repository/Login Page/txtfield_username' is cleared
+
+2023-02-15 12:13:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login Page/txtfield_username' is cleared
+
+2023-02-15 12:13:09 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/txtfield_username"), username): Text '' is set on object 'Object Repository/Login Page/txtfield_username'
+
+2023-02-15 12:13:10 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login Page/txtfield_username'
+
+2023-02-15 12:13:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login Page/Input Username' successfully
+
+2023-02-15 12:13:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login Page/Input Password"), ["password":"secret_sauce"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login Page/Input Password' successfully
+
+2023-02-15 12:13:10 - [TEST_CASE][PASSED] - Test Cases/Login Page/Input Password: Test Cases/Login Page/Input Password
+
+2023-02-15 12:13:10 - [TEST_STEP][PASSED] - clearText(findTestObject("Login Page/txtfield_password")): Text of object 'Object Repository/Login Page/txtfield_password' is cleared
+
+2023-02-15 12:13:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login Page/txtfield_password' is cleared
+
+2023-02-15 12:13:11 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/txtfield_password"), password): Text 'secret_sauce' is set on object 'Object Repository/Login Page/txtfield_password'
+
+2023-02-15 12:13:12 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login Page/txtfield_password'
+
+2023-02-15 12:13:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login Page/Input Password' successfully
+
+2023-02-15 12:13:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login Page/Click Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login Page/Click Login' successfully
+
+2023-02-15 12:13:12 - [TEST_CASE][PASSED] - Test Cases/Login Page/Click Login: Test Cases/Login Page/Click Login
+
+2023-02-15 12:13:12 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/btn_login")): Object: 'Object Repository/Login Page/btn_login' is clicked on
+
+2023-02-15 12:13:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/btn_login' is clicked on
+
+2023-02-15 12:13:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login Page/Click Login' successfully
+
+2023-02-15 12:13:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login Page/Read Error Message"), ["expected":"Epic sadface: Username is required"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login Page/Read Error Message' successfully
+
+2023-02-15 12:13:13 - [TEST_CASE][PASSED] - Test Cases/Login Page/Read Error Message: Test Cases/Login Page/Read Error Message
+
+2023-02-15 12:13:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login Page/txt_errorMessage")): Object 'Object Repository/Login Page/txt_errorMessage' is visible
+
+2023-02-15 12:13:14 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/txt_errorMessage' is visible
+
+2023-02-15 12:13:14 - [TEST_STEP][PASSED] - errorText = getText(findTestObject("Login Page/txt_errorMessage")): Text of object 'Object Repository/Login Page/txt_errorMessage' is: 'Epic sadface: Username is required'
+
+2023-02-15 12:13:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login Page/txt_errorMessage' is: 'Epic sadface: Username is required'
+
+2023-02-15 12:13:14 - [TEST_STEP][PASSED] - logInfo("Error Text: " + errorText): Error Text: Epic sadface: Username is required
+
+2023-02-15 12:13:14 - [MESSAGE][INFO] - Error Text: Epic sadface: Username is required
+
+2023-02-15 12:13:14 - [TEST_STEP][PASSED] - verifyMatch(errorText, expected, false): Actual text 'Epic sadface: Username is required' and expected text 'Epic sadface: Username is required' are matched 
+
+2023-02-15 12:13:14 - [MESSAGE][PASSED] - Actual text 'Epic sadface: Username is required' and expected text 'Epic sadface: Username is required' are matched 
+
+2023-02-15 12:13:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login Page/Read Error Message' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-15 12:12:58 - [TEST_SUITE][PASSED] - Login Feature: Test Cases/Step Definition/Login Feature/LGI003 - User want to login only input registered password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
