@@ -23,6 +23,8 @@ WebUI.callTestCase(findTestCase('Login Page/Input Username'), [('username') : 's
 
 WebUI.callTestCase(findTestCase('Login Page/Input Password'), [('password') : 'secret_sauce'], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.takeFullPageScreenshotAsCheckpoint('fulfillment')
+
 WebUI.callTestCase(findTestCase('Login Page/Click Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Home Page/Read Title Page'), [('expected') : 'Products'], FailureHandling.STOP_ON_FAILURE)

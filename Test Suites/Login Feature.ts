@@ -45,5 +45,11 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Step Definition/Login Feature/LGI005 - User want to login using correct credential</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2224034f-9776-45c9-b8be-81d15b02a7fe</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
