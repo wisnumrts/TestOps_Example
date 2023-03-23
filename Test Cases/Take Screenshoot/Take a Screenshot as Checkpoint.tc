@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Take a Screenshot as Checkpoint</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>98a929c5-37bd-4051-8060-34c75f81c336</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>366418f9-8329-43d9-b8f5-2313394d8b38</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>366418f9-8329-43d9-b8f5-2313394d8b38</id>
+      <masked>false</masked>
+      <name>imageName</name>
+   </variable>
+</TestCaseEntity>
